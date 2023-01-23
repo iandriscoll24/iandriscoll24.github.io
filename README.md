@@ -7,7 +7,7 @@
 * JS
 
 ## In-Class Assignments
-* ICA1
+* ICA1 - https://github.com/iandriscoll24/iandriscoll24.github.io/blob/main/ica/ICA1%20--%20How%20to%20Search%20-%20Ian%20Driscoll.pdf
 * ICA2
 * ICA3
 * ICA4
