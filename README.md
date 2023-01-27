@@ -8,7 +8,7 @@
 
 ## In-Class Assignments
 * ICA1 - https://github.com/iandriscoll24/iandriscoll24.github.io/blob/main/ica/ICA1%20--%20How%20to%20Search%20-%20Ian%20Driscoll.pdf
-* ICA2
+* ICA2 - 
 * ICA3
 * ICA4
 * ICA5
@@ -25,7 +25,7 @@
 
 ## Weekly Assignments
 * WA1 - https://iandriscoll24.github.io/wa/wa1.html
-* WA2
+* WA2 - https://iandriscoll24.github.io/wa/wa2.html
 * WA3
 * WA4
 * WA5
