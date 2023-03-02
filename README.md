@@ -10,10 +10,10 @@
 * ICA1 - https://github.com/iandriscoll24/iandriscoll24.github.io/blob/main/ica/ICA1%20--%20How%20to%20Search%20-%20Ian%20Driscoll.pdf
 * ICA2 - 
 * ICA3 - https://iandriscoll24.github.io/ica/ica3a.html
-* ICA4
-* ICA5
-* ICA6
-* ICA7
+* ICA4 - https://iandriscoll24.github.io/ica/ica4.html
+* ICA5 - https://iandriscoll24.github.io/ica/ica5.html
+* ICA6 - https://iandriscoll24.github.io/ica/ica6/ica6-part1.html
+* ICA7 - https://iandriscoll24.github.io/ica/ica7.html
 * ICA8
 * ICA9
 * ICA10
