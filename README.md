@@ -26,10 +26,10 @@
 ## Weekly Assignments
 * WA1 - https://iandriscoll24.github.io/wa/wa1.html
 * WA2 - https://iandriscoll24.github.io/wa/wa2.html
-* WA3
-* WA4
-* WA5
-* WA6
+* WA3 - https://iandriscoll24.github.io/wa/wa3.html
+* WA4 - https://iandriscoll24.github.io/wa/wa4.html
+* WA5 - 
+* WA6 - https://iandriscoll24.github.io/wa/wa6/index.html
 * WA7
 * WA8
 * WA9
