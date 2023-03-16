@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    position: fixed;
+    left: 100px;
+    top: 200px;
+    text-decoration: underline orange;
+}
+nav{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    position: relative;
+    left: 600px;
+    top: 40px;
+}
+nav a{
+    width:10vw;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;        
+    font-weight: bold;
+    color: gray;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+}
+
+#red-ball{
+    background-color: violet;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation: ballmove 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ballmove{
+    0% { 
+        left: 5%;
+    }
+    50% {
+        left: 95%;
+    }
+    100% {
+        left: 5%;
+    }
+}
