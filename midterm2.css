@@ -40,7 +40,13 @@ nav a{
 
 img {
     border-radius: 50%;
-    position: relative;
+    position: fixed;
+    right: 330px;
+    top: 100px; 
+    width: 500px;
+    height: 500px;
+    
+
 }
 
 #red-ball{
