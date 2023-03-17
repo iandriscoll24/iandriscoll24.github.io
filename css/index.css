@@ -55,7 +55,18 @@ img {
     left: 100px;
     top: 350px;
     font-size: 20px;
+    animation: aboutmove 5s;
+}
 
+@keyframes aboutmove{
+    0% { 
+        opacity: 0%;
+        top: 1000px;
+    }
+    100% {
+        opacity: 100%;
+        top: 350px;
+    }
 }
 
 #circle1 {
