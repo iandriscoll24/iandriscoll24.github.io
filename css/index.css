@@ -36,9 +36,19 @@ nav a{
     font-size: 20px;        
     font-weight: bold;
     color: gray;
+    
+}
+nav a:hover{
+    width:10vw;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;        
+    font-weight: bold;
+    color: black;
+    
 }
 
-img {
+#portrait {
     border-radius: 50%;
     position: fixed;
     right: 330px;
@@ -47,6 +57,24 @@ img {
     height: 500px;
     
 
+}
+
+#aboutimage {
+    position: fixed;
+    left: 100px;
+    top: 600px;
+    width: 900px;
+    height: 600px;
+    animation: aboutimagemove 5s;
+}
+
+#code {
+    position: fixed;
+    left: 1050px;
+    top: 600px;
+    width: 900px;
+    height: 600px;
+    animation: aboutimagemove 5s;
 }
 
 #about {
@@ -69,6 +97,16 @@ img {
     }
 }
 
+@keyframes aboutimagemove{
+    0% { 
+        opacity: 0%;
+        top: 2000px;
+    }
+    100% {
+        opacity: 100%;
+        top: 600px;
+    }
+}
 #circle1 {
     height: 500px;
     width: 500px;
