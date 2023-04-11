@@ -2,8 +2,8 @@
 
 
 ## Projects
-* HTML
-* CSS
+* HTML - https://iandriscoll24.github.io/html-midterm/page1.html
+* CSS - https://iandriscoll24.github.io/index.html
 * JS
 
 ## In-Class Assignments
@@ -14,10 +14,10 @@
 * ICA5 - https://iandriscoll24.github.io/ica/ica5.html
 * ICA6 - https://iandriscoll24.github.io/ica/ica6/ica6-part1.html
 * ICA7 - https://iandriscoll24.github.io/ica/ica7.html
-* ICA8
-* ICA9
-* ICA10
-* ICA11
+* ICA8 
+* ICA9 - https://iandriscoll24.github.io/ica/ica9.html
+* ICA10 - https://iandriscoll24.github.io/ica/ica10.html
+* ICA11 - https://iandriscoll24.github.io/ica/ica11.html
 * ICA12
 * ICA13
 * ICA14
@@ -30,11 +30,11 @@
 * WA4 - https://iandriscoll24.github.io/wa/wa4.html
 * WA5 - 
 * WA6 - https://iandriscoll24.github.io/wa/wa6/index.html
-* WA7
-* WA8
-* WA9
-* WA10
-* WA11
+* WA7 - https://iandriscoll24.github.io/wa/wa7.html
+* WA8 - 
+* WA9 - https://iandriscoll24.github.io/wa/wa9.html
+* WA10 
+* WA11 - https://iandriscoll24.github.io/wa/wa11.html
 * WA12
 * WA13
 * WA14
