@@ -26,15 +26,19 @@ function plus() {
 }
 
 function random() {
-    outputInt = randomNumber(0, 100);
-    output.textContent = outputInt;
-}
-
-function randomNumber(min, max) {
+    const outputElements = document.getElementsByClassName("centered");
+    for (let i = 0; i < outputElements.length; i++) {
+      const outputInt = randomNumber(0, 100);
+      outputElements[i].textContent = `${outputInt}`;
+    }
+  }
+  
+  function randomNumber(min, max) {
     const num = Math.floor(Math.random() * (max - min + 1)) + min;
     return num;
   }
-
+  
+  window.onload = random;
 
 
 const output = document.querySelector('.output');
@@ -46,7 +50,6 @@ const plusButton = document.querySelector('.plus-button').addEventListener('clic
 const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
 const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
-
 
 /* const button = document.querySelector('.button');
 const output = document.querySelector('.output');
@@ -68,3 +71,54 @@ var sliderOutput = document.querySelector(".slider-output");
 function update() {
   sliderOutput.textContent = slider.value;
 }
+
+function animateRoll() {
+    const box = document.querySelector(".box");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+  function animateRoll2() {
+    const box = document.querySelector(".box2");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+  function animateRoll3() {
+    const box = document.querySelector(".box3");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+  function animateRoll4() {
+    const box = document.querySelector(".box4");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+  function animateRoll5() {
+    const box = document.querySelector(".box5");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+  function animateRoll6() {
+    const box = document.querySelector(".box6");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
+
+  function animateRoll0() {
+    const box = document.querySelector(".box0");
+    box.classList.add("animate");
+    setTimeout(() => {
+      box.classList.remove("animate");
+    }, 1000);
+  }
