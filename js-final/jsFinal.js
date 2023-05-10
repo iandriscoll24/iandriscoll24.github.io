@@ -84,5 +84,23 @@ document.addEventListener('DOMContentLoaded' , () => {
         gameEnded = true;
         console.log('game over');
         displayImage('gameOver.png', 1080, 1080, 'Game Over')
+        document.addEventListener('keyup', restart);
+
     }
+
+    function restart() {
+        window.location.reload(true);
+    }
+
+    var timer;
+    var ele = document.getElementById('timer');
+
+    (function (){
+        var sec = 0;
+        timer = setInterval(()=>{
+        ele.innerHTML = 'Timer: 00:'+sec;
+        sec ++;
+    }, 1000)
+    })() 
+    
 })
