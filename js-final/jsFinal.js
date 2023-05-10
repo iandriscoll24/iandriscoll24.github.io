@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded' , () => {
             }
             if (ralphieBottom === 0) {
                 gameOver();
+                clearInterval(pipeTime);
             }
         }
         let pipeTime = setInterval(movePipes, 20)
@@ -59,7 +60,6 @@ document.addEventListener('DOMContentLoaded' , () => {
 
     function gameOver() {
         clearInterval(gameTime);
-        clearInterval(pipeTime)
         gameEnded = true;
         console.log('game over');
     }
