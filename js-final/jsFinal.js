@@ -66,9 +66,23 @@ document.addEventListener('DOMContentLoaded' , () => {
     }
     createPipe();
 
+    function displayImage(src, width, height, alt) {
+        var img = document.createElement("img");
+        img.src = src;
+        img.width = width;
+        img.height = height;
+        img.alt = alt;
+        img.style.position = "fixed";
+        img.style.top = "50%";
+        img.style.left = "50%";
+        img.style.transform = "translate(-50%, -50%)";
+        document.body.appendChild(img);
+       }
+
     function gameOver() {
         clearInterval(gameTime);
         gameEnded = true;
         console.log('game over');
+        displayImage('gameOver.png', 1080, 1080, 'Game Over')
     }
 })
