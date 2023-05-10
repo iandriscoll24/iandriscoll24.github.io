@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded' , () => {
     var ele = document.getElementById('timer');
 
     (function (){
-        var sec = 50;
+        var sec = 0;
         var min = 0;
         timer = setInterval(()=>{
         ele.innerHTML = 'Timer: 0' + min + ':' + sec;
