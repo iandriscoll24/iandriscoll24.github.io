@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         console.log('game over');
         displayImage('gameOver.png', 1080, 1080, 'Game Over')
         document.addEventListener('keyup', restart);
+        clearInterval(timer);
 
     }
 
@@ -96,10 +97,15 @@ document.addEventListener('DOMContentLoaded' , () => {
     var ele = document.getElementById('timer');
 
     (function (){
-        var sec = 0;
+        var sec = 50;
+        var min = 0;
         timer = setInterval(()=>{
-        ele.innerHTML = 'Timer: 00:'+sec;
+        ele.innerHTML = 'Timer: 0' + min + ':' + sec;
         sec ++;
+        if (sec == 60) {
+            sec = 0;
+            min = min + 1;
+        }
     }, 1000)
     })() 
     
