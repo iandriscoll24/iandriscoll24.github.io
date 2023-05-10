@@ -27,9 +27,10 @@ document.addEventListener('DOMContentLoaded' , () => {
     document.addEventListener('keyup', jump);
 
     function createPipe() {
-       let pipeLeft = 500;
+       let pipeLeft = 600;
        let heightModifier = Math.random() * 100;
        let pipeBottom = heightModifier;
+       console.log(pipeBottom);
        const pipe = document.createElement('div');
         if (!gameEnded) {
             pipe.classList.add('pipe');
@@ -46,7 +47,7 @@ document.addEventListener('DOMContentLoaded' , () => {
                 clearInterval(pipeTime)
                 game.removeChild(pipe)
             }
-            if (ralphieBottom === 0) {
+            if (pipeLeft > 0 && pipeLeft <= 150 && ralphieLeft === 100 && ralphieBottom < pipeBottom + 150 || ralphieBottom === 0) {
                 gameOver();
                 clearInterval(pipeTime);
             }
