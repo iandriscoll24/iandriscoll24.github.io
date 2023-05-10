@@ -1,0 +1,66 @@
+document.addEventListener('DOMContentLoaded' , () => {
+    const ground = document.querySelector('.ground');
+    const ralphie = document.querySelector('.ralphie');
+    const game = document.querySelector('.background');
+
+    let gravity = 4;
+    let ralphieBottom = 540;
+    let ralphieLeft = 100;
+    let gameEnded = false;
+    
+
+
+    function startGame() {
+        ralphieBottom -= gravity;
+        ralphie.style.bottom = ralphieBottom + 'px';
+        ralphie.style.left = ralphieLeft + 'px';
+    }
+    let gameTime = setInterval(startGame, 20)
+
+    function jump() {
+        if (ralphieBottom < 1920) { 
+                ralphieBottom += 80;
+                console.log(ralphieBottom)
+            }
+        ralphie.style.bottom = ralphieBottom + 'px';
+    }
+    document.addEventListener('keyup', jump);
+
+    function createPipe() {
+       let pipeLeft = 500;
+       let heightModifier = Math.random() * 100;
+       let pipeBottom = heightModifier;
+       const pipe = document.createElement('div');
+        if (!gameEnded) {
+            pipe.classList.add('pipe');
+        }
+       game.appendChild(pipe);
+       pipe.style.left = pipeLeft + 'px';
+       pipe.style.bottom = pipeBottom + 'px';
+
+       function movePipes() {
+        pipeLeft -=4;
+        pipe.style.left = pipeLeft + 'px';
+
+            if (pipeLeft === -100) {
+                clearInterval(pipeTime)
+                game.removeChild(pipe)
+            }
+            if (ralphieBottom === 0) {
+                gameOver();
+            }
+        }
+        let pipeTime = setInterval(movePipes, 20)
+        if (!gameEnded) { 
+            setTimeout(createPipe, 3000)
+        }
+    }
+    createPipe();
+
+    function gameOver() {
+        clearInterval(gameTime);
+        clearInterval(pipeTime)
+        gameEnded = true;
+        console.log('game over');
+    }
+})
