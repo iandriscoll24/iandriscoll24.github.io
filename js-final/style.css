@@ -21,7 +21,7 @@
 }
 
 .ralphie {
-    background-color: black;
+    background-image: url("../js-final/ralphie.png");
     position: absolute;
     width: 60px;
     height: 60px;
@@ -32,4 +32,12 @@
     width: 100px;
     height: 400px;
     position: absolute;
+}
+
+.topPipe {
+    background-image: url("../js-final/goldPipe.png");
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    transform: rotate(180deg);
 }
