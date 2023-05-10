@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded' , () => {
                 clearInterval(pipeTime)
                 game.removeChild(pipe)
             }
-            if (pipeLeft > 0 && pipeLeft <= 150 && ralphieLeft === 100 && ralphieBottom < pipeBottom + 150 || ralphieBottom === 0) {
+            if (pipeLeft > 0 && pipeLeft <= 150 && ralphieLeft === 100 && ralphieBottom < pipeBottom + 200 || ralphieBottom === 0) {
                 gameOver();
                 clearInterval(pipeTime);
             }

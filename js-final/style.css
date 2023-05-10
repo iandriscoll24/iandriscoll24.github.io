@@ -28,8 +28,8 @@
 }
 
 .pipe {
-    background-color: goldenrod;
+    background-image: url("../js-final/goldPipe.png");
     width: 100px;
-    height: 350px;
+    height: 400px;
     position: absolute;
 }
